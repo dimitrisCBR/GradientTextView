@@ -61,6 +61,6 @@ allprojects {
 Module-level `build.gradle`
 ```groovy
 dependencies {
-   implementation 'com.github.dimitrisCBR:GradientTextView:1.1'
+   implementation 'com.github.dimitrisCBR:GradientTextView:1.2'
 }
 ```

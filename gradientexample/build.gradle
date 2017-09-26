@@ -25,5 +25,5 @@ android {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:26.1.0'
-    implementation project(':gradienttextview')
+    implementation 'com.github.dimitrisCBR:GradientTextView:-SNAPSHOT'
 }
