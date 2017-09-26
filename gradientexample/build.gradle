@@ -10,7 +10,7 @@ android {
         minSdkVersion 14
         targetSdkVersion 26
         versionCode 1
-        versionName "1.0"
+        versionName "1.1"
     }
 
     buildTypes {
@@ -25,5 +25,5 @@ android {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:26.1.0'
-    implementation 'com.github.dimitrisCBR:GradientTextView:1.1'
+    implementation 'com.github.dimitrisCBR:GradientTextView:1.0'
 }
