@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="red_palette">
+        <item>@color/red_1</item>
+        <item>@color/red_2</item>
+        <item>@color/red_3</item>
+        <item>@color/red_4</item>
+        <item>@color/red_5</item>
+    </array>
+
+    <array name="rainbow">
+        <item>@color/rainbow_red</item>
+        <item>@color/rainbow_orange</item>
+        <item>@color/rainbow_yellow</item>
+        <item>@color/rainbow_green</item>
+        <item>@color/rainbow_blue</item>
+        <item>@color/rainbow_indigo</item>
+        <item>@color/rainbow_violet</item>
+    </array>
+</resources>

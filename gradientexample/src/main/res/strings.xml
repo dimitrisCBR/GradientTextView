@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GradientTextView</string>
+    <string name="title_activity_example">ExampleActivity</string>
+</resources>

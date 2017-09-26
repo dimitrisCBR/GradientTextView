@@ -1,0 +1,12 @@
+*.iml
+/local.properties
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+/.gradle/
+/.idea/
+/gradienttextview/build/
+/gradientexample/build/
+*/gradle.properties
+/gradienttextview/maven-push.gradle

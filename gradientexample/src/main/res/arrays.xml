@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="red_palette">
+        <item>@color/red_1</item>
+        <item>@color/red_2</item>
+        <item>@color/red_3</item>
+        <item>@color/red_4</item>
+        <item>@color/red_5</item>
+        <item>@color/red_6</item>
+    </array>
+</resources>
