@@ -49,4 +49,18 @@
 
 ### Import to Project
 
-//TODO as soon as I Upload on Maven. Until then feel free to clone, fork or w/e
+Project-level `build.gradle`:
+```groovy
+allprojects {
+   repositories {
+       maven { url 'https://jitpack.io' }
+   }
+}
+```
+
+Module-level `build.gradle`
+```groovy
+dependencies {
+   implementation 'com.github.dimitrisCBR:GradientTextView:1.1'
+}
+```
