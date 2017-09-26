@@ -10,3 +10,6 @@
 /gradientexample/build/
 */gradle.properties
 /gradienttextview/maven-push.gradle
+/gradienttextview/gradle.properties
+/gradle/
+gradle.properties
