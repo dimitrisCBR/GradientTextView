@@ -1,7 +1,7 @@
 # Gradient TextView
 
  A Library providing the widget  `GradientTextView` which extends `AppCompatTextView` and can be used as a normal `TextView`.
- 
+ ![Image](images/gradient.PNG)
  ### Example
  
  You can take a look at module `gradientexample` for a full example.

@@ -4,6 +4,13 @@ android {
     compileSdkVersion 26
     buildToolsVersion "26.0.0"
 
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+    }
 
     defaultConfig {
         applicationId "com.cbr.gradientexample"
@@ -25,5 +32,5 @@ android {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:26.1.0'
-    implementation 'com.github.dimitrisCBR:GradientTextView:-SNAPSHOT'
+    implementation project(':gradienttextview')
 }
