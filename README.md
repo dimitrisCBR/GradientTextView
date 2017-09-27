@@ -1,14 +1,18 @@
 # Gradient TextView
 
  A Library providing the widget  `GradientTextView` which extends `AppCompatTextView` and can be used as a normal `TextView`.
+ 
+ 
  ![Image](images/gradient.PNG)
+
+
  ### Example
  
  You can take a look at module `gradientexample` for a full example.
  
  **TL;DR:**
  
- 1. Define an your color resources:
+ 1. Define your color resources:
  
 ```xml
      <color name="rainbow_red">#FF0000</color>
@@ -36,7 +40,7 @@
 ```
 
 
-3. Use a `GradientTextView` in your layout and pass the color-array along with Gradient Direction (optional):
+3. Use a `GradientTextView` in your layout and set the color-array along with Gradient Direction (optional):
 
 ```xml
 <com.cbr.gradienttextview.GradientTextView
